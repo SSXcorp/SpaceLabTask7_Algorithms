@@ -30,7 +30,7 @@ public class AppLauncher {
         RouteFinder<City> routeFinder = new RouteFinder<>(graph, new HaversineScorer(), new HaversineScorer());
 
         // Find and print a route from sofia to varna
-        List<City> route = routeFinder.findRoute(sofia, varna);
+        List<City> route = routeFinder.findRoute(sofia, burgas);
         System.out.println("Route from Earl's Court to Angel: " + route);
     }
 }

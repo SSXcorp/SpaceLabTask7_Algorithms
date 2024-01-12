@@ -12,6 +12,6 @@ public class Main {
         idObj.setFname("Test");
         idObj.setLname("Tester");
 
-        ObjectConverterToJson.convert(idObj);
+        System.out.println(ObjectConverterToJson.convert(idObj));
     }
 }
