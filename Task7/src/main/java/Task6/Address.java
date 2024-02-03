@@ -1,9 +1,15 @@
 package Task6;
 
 public class Address {
-    private String street;
-    private String city;
-    private int zip;
+    public String street;
+    public String city;
+    public int zip;
+
+    Address(String street, String city, int zip){
+        this.street = street;
+        this.city = city;
+        this.zip = zip;
+    }
 
     public String getStreet() {
         return street;
